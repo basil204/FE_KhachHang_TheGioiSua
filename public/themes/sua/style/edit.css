@@ -1,0 +1,16 @@
+.variant-images {
+    display: flex;
+    gap: 10px;
+}
+
+.variant-thumbnail {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.variant-thumbnail:hover {
+    border-color: #007bff;
+}

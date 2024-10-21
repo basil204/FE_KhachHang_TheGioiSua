@@ -1,99 +1,226 @@
-<header>
-</div><div class="header__main">
-    <div class="width1200">
-        <div class="col-md-1 padd0">
-          <section style="height:50px">
-            <a href="/" class="header-logo">
-              <img src="themes/sua/images/logo.png">
+<h1 class="d-none">Cửa hàng Vshop</h1>
+    <div class="hidden-md hidden-lg opacity_menu"></div>
+    <div class="opacity_filter"></div>
+    <div id="body_overlay" class="position-fixed d-none"></div>
+    <div id="top_slogan" style="min-height: 40px;"></div>
+    <div class="menubar js-close-slogan open_slogan w-100 text-right d-flex d-lg-none position-fixed align-items-center scroll_down bg_no_index">
+        <a href="/" title="Cửa hàng Vshop" class="mr-auto ml-2">
+            <img alt="Cửa hàng Vshop" src="image/catalog/logo/VShopLogo.png" class="img-fluid mb_logo">
+        </a> 
+                    <a href="/DangNhap" class="mb_login ml-auto mr-2 d-flex rounded-circle justify-content-center align-items-center" title="Đăng nhập">
+                <svg width="24" height="24">
+                    <use href="#svg-account"/>
+                </svg>
             </a>
-          </section>
-        </div>
-
-        <div class="col-md-5">
-
-          <form method="post" class="form-search" action="https://sua.vn/tim-kiem">
-              
-              <input type="text" name="jquery" placeholder="Tìm sản phẩm" class="form-control">
-             
-              <button type="submit" class="submit-search">
-                <i class="fa fa-search"></i>
-              </button>
-
-          </form>
-
-        </div><div class="col-md-6">
-
-            <div class="headtop-right">
-              <ul>
-                <li>
-                  <a href="thanh-toan.html" class="header__cart">
-                    <div class="Hcartpic">
-                        <img src="themes/sua/images/giohang.png">
-                        <div class="numbers showcard"></div>
+            </div>
+    <div class="bg_head position-fixed w-100 scroll_down "></div>
+    <div class="col-left position-sticky top-0 d-flex flex-column w-100 pc bg-white js-close-slogan open_slogan">
+        <div class="top_bar py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="info-block mr-3 d-inline-block">
+                            <a href="tel:+84123456789" title="+84123456789" class="align-items-center d-flex">
+                            <span>Hotline </span><b class="text-main ml-1">+84123456789</b>
+                            </a>
+                        </div>
+                        <div class="d-inline-block cls">
+                            <a href="he-thong-cua-hang.html" title="Hệ thống cửa hàng" class="align-items-center d-flex head_svg rounded-10">
+                                <span>Hệ thống cửa hàng  </span>
+                                <b class="text-main ml-1 btn-top">
+                                    (1 
+                                    <svg width="16" height="20">
+                                        <use href="#svg-store-list"/>
+                                    </svg>
+                                    )
+                                </b>
+                            </a>
+                        </div>
                     </div>
-                    
-                    <div class="carttext">  
-                       Giỏ hàng
-                    </div>   
-                  </a>
-                </li>
-
-                <li>
-                  <a href="kiem-tra-don-hang.html" class="header__history">
-                      <p>Kiểm tra</p>
-                      <p>đơn hàng</p>  
-                  </a>
-                </li>
-
-                <li>
-                  <a href="tel:0782222762" class="header__hotline">
-                      <p>(8:00 - 20:00)</p>
-                      <p>
-                        <span>0782222762</span>
-                      </p>  
-                  </a>
-                </li>
-
-
-                <li><a href="dang-nhap.html" class="header__login">
-                      Đăng nhập 
-                    </a></li>
-
-              </ul>
+                    <div class="col-6 d-flex justify-content-end">
+                        <ul class="main-menu d-flex list-unstyled m-0 p-0">
+                                                                                    <li class="level1">
+                                <a class="d-inline-block px-2" href="/" title="Trang chủ">
+                                    Trang chủ                                </a>
+                            </li>
+                                                                                                                <li class="level1">
+                                <a class="d-inline-block px-2" href="san-pham.html" title="Sản phẩm">
+                                    Sản phẩm                                </a>
+                                <ul class="item_small ul_level2">
+                                                                                                            <li class="level2">
+                                        <a class="d-inline-block px-2" href="me-bau-va-sau-sinh.html" title="Mẹ bầu và sau sinh">
+                                            Mẹ bầu và sau sinh                                        </a>
+                                        <i class="fa fa-caret-down"></i>
+                                        <ul class="ul_level2 ul_level3">
+                                                                                                                                                <li class="level3">
+                                                        <a class="d-inline-block px-2" href="sua-thuc-pham.html" title="Sữa, thực phẩm">
+                                                            Sữa, thực phẩm                                                        </a>
+                                                        <i class="fa fa-caret-down"></i>
+                                                        <ul class="ul_level3 ul_level4">
+                                                                                                                            <li>
+                                                                    <a href="the-gioi-sua-bot.html" title="Thế giới sữa bột" class="d-inline-block px-2">
+                                                                        Thế giới sữa bột                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </li>
+                                                                                                                                                                                                <li>
+                                                        <a href="bim-ta-ve-sinh.html" title="Bỉm, tã, vệ sinh" class="d-inline-block px-2">
+                                                            Bỉm, tã, vệ sinh                                                        </a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                    </li>
+                                                                                                        </ul>
+                            </li>
+                                                                                                                <li class="level1">
+                                <a class="d-inline-block px-2" href="tin-moi-kids.html" title="Tin tức">
+                                    Tin tức                                </a>
+                            </li>
+                                                                                                                <li class="level1">
+                                <a class="d-inline-block px-2" href="ve-chung-toi.html" title="Về chúng tôi">
+                                    Về chúng tôi                                </a>
+                            </li>
+                                                                                </ul>
+                        <div id="js-login-toggle" class="btn-account d-none d-lg-flex align-items-center justify-content-end btn-top ml-3">
+                            <svg width="20" height="20" class="mr-1">
+                                <use href="#svg-account"/>
+                            </svg>
+                                                            <div id="m_login" class="pop_login">
+                                    <a href="/DangNhap" class="item_login d-block text-main" title="Đăng ký">Đăng ký /&nbsp</a>
+                                </div>
+                                <div id="m_login" class="pop_login">
+                                    <a href="/DangNhap" class="item_login d-block text-main" title="Đăng nhập">Đăng nhập</a>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
             </div>
-
-        </div><div class="clearfix"></div><div class="header__danhmuc">
-
-            <div class="header__bars">
-                <i class="fa fa-bars"></i> <span>Danh Mục</span>
-
-                <div class="menu__shop"><ul class="list-menu"><li data-submenu-mid="128">
-                              <a href="/DanhMuc">SỮA BỘT DINH DƯỠNG</a><div class="showmenu showmenu-full submenu128" id="submenu-128">
-                        <ul class="showmenu-sub"><li class="">
-                                    <a href="/DanhMuc">
-                                        <div class="imgmenu">
-                                          <img class="imgmenu__thumb lazyloaded" alt="NOBIKO" width="38" height="42" src="uploads/shop/category/1724812449.nv.png">
-                                        </div>
-                                        <p>NOBIKO</p>
-                                    </a>
-                                </li></ul>
-                        </div></li>
-  </div> 
+        </div>
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="align-items-center col-12 col-lg-2-5 d-lg-flex d-none justify-content-between py-2">
+                    <a href="/" title="Cửa hàng Vshop" class="logo">
+                    <img alt="Cửa hàng Vshop" src="image/catalog/logo/VShopLogo.png" data-src="https://vshop.w2.exdomain.net/image/catalog/logo/VShopLogo.png" class="img-fluid lazy">
+                    </a> 
+                    <a href="javascript:;" title="Danh mục" class="js-menu-toggle d-inline-block p-2 pc_open_menu px-2 rounded-10 ml-2">
+                        <svg width="24" height="24">
+                            <use href="#svg-menu" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-7-5 py-2">
+                    <div class="d-lg-flex align-items-center position-static pr-menu">
+                        <div class="theme-search-smart search-block mr-3 mr-lg-4">
+    <div class="theme-search-smart" role="search" id="search">
+        <div class="header_search">
+            <div class="js-search-form left-search js-close-slogan open_slogan position-relative mt-4 mt-lg-0 pt-2 pb-2 pt-lg-1 pb-lg-1">
+                <input type="hidden" name="type" value="product" />
+                <input type="text" name="search" value="" placeholder="Tìm kiếm" id="js-search-form" class="search-auto input-group-field auto-search form-control pl-2 pl-lg-3 pr-5 rounded-10" autocomplete="off">
+                <input type="submit" class="border-0 position-absolute p-0">
+                <div class="w-100 position-absolute rounded-10 searchResult d-none modal-open">
+                    <div class="overflow-auto search-result-warpper px-2"></div>
+                </div>
             </div>
-
-            <div class="header__menu">
-              <ul>
-                  <li>
-                    <a href="/">Trang chủ</a>
-                  </li>
-
-                
-              </ul>
-            </div>
-
-            <div class="clearfix"></div>
-
         </div>
     </div>
+</div>
+                        <div id="navigation-bottom">
+                            <div class="navigation-bottom mt-auto mt-lg-0">
+                                <div class="b_use d-none d-lg-flex align-items-stretch">
+                                    <div id="_navigation-bottom"></div>
+                                    <a class="ml-lg-4 py-1 btn-cart position-relative d-inline-flex flex-column align-items-center head_svg" title="Giỏ hàng" href="gio-hang.html">
+    <span class="b_ico_Cart text-center d-flex justify-content-center align-items-center position-relative">
+        <img width="25px" height="25px" src="image/catalog/service/cart-large-minimalistic-svgrepo-com.svg" alt="Cart">
+        <span class="count_item count_item_pr btn-cart-indicator position-absolute font-weight-bold text-center">0</span>
+    </span>
+    <small class="font-weight-bold">Giỏ hàng</small>
+    <div class="js-buy-alert position-absolute"></div>
+</a>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="_menu_mobile" style="display: none;">
+            <div class="d-lg-none">
+                <ul class="sup_menu_mobi align-content-lg-start align-content-start align-items-center align-items-lg-start list-unstyled p-0 row rounded-10">
+                                            <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                            <a href="/" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Trang chủ">
+                            <span class="line_1 line_2 h-auto">
+                            Trang chủ                            </span>
+                            </a>
+                        </li>
+                                                                    <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                            <a href="san-pham.html" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Sản phẩm">
+                            <span class="line_1 line_2 h-auto">
+                            Sản phẩm                            </span>
+                            </a>
+                        </li>
+                                                                                    <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                                    <a href="me-bau-va-sau-sinh.html" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Mẹ bầu và sau sinh">
+                                    <span class="line_1 line_2 h-auto">
+                                    Mẹ bầu và sau sinh                                    </span>
+                                    </a>
+                                </li>
+                                                                                                            <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                                            <a href="sua-thuc-pham.html" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Sữa, thực phẩm">
+                                            <span class="line_1 line_2 h-auto">
+                                            Sữa, thực phẩm                                            </span>
+                                            </a>
+                                        </li>
+                                                                            <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                                            <a href="bim-ta-ve-sinh.html" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Bỉm, tã, vệ sinh">
+                                            <span class="line_1 line_2 h-auto">
+                                            Bỉm, tã, vệ sinh                                            </span>
+                                            </a>
+                                        </li>
+                                                                                                                                                                    <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                            <a href="tin-moi-kids.html" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Tin tức">
+                            <span class="line_1 line_2 h-auto">
+                            Tin tức                            </span>
+                            </a>
+                        </li>
+                                                                    <li class="level1 position-relative col-6 col-lg-12 mt-2 mb-1">
+                            <a href="ve-chung-toi.html" class="align-items-center bg d-flex font-weight-bold ml-lg-2 mr-lg-2 py-2 px-3 rounded-pill" title="Về chúng tôi">
+                            <span class="line_1 line_2 h-auto">
+                            Về chúng tôi                            </span>
+                            </a>
+                        </li>
+                                                            </ul>
+            </div>
+        </div>
+    </div><link rel="preload" as="style" href="catalog/view/theme/vshop/stylesheet/zozo_style_index.scss.css" type="text/css">
+<link href='catalog/view/theme/vshop/stylesheet/zozo_style_index.scss.css' rel='stylesheet' type='text/css'  media='all' />
+
+<div class="w-100 clearfix">
+    
+<div class="top_slogan w-100 align-items-center " style="--clcont: #ffffff;--bg_line_1: #71c3ab;--bg_line_2: #6568a0; display: none">
+    <div class="container h-100">
+        <div class="zozo_text_fade swiper-container h-100">
+            <div class="swiper-wrapper">
+                                    <div class="swiper-slide text-center">
+                        <a class="font-weight-bold d-flex justify-content-center align-items-center h-100 w-100" href="#" title="Tặng quà hấp dẫn cho bé. Mua hàng ngay đừng bỏ lỡ.">
+                            <span class="pulsingButton mr-3 bg-white d-inline-block rounded-circle"></span>Tặng quà hấp dẫn cho bé. Mua hàng ngay đừng bỏ lỡ.                        </a>
+                    </div>
+                                    <div class="swiper-slide text-center">
+                        <a class="font-weight-bold d-flex justify-content-center align-items-center h-100 w-100" href="#" title="Free ship tất cả các đơn hàng từ 299k">
+                            <span class="pulsingButton mr-3 bg-white d-inline-block rounded-circle"></span>Free ship tất cả các đơn hàng từ 299k                        </a>
+                    </div>
+                            </div>
+        </div>
     </div>
-    </header>
+</div>
+    
+
+
+<div class="col-right position-relative open_slogan">
+    <div class="contentWarp ">
+        <div class="container">
+                    
+                <style>
+            #flash_sale .bg-flash .cl_tit_fl:before {
+                background-image: url('image/catalog/icons/fs_f7dd57cd40b74d98b77b6f00213c1616.webp');
+            }
+        </style>
+       

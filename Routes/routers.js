@@ -33,39 +33,37 @@ const routes = {
   Voucher: VoucherController,
 };
 
+// Setting up API routes dynamically based on controllers
 Object.entries(routes).forEach(([routeName, controller]) => {
   router.get(
     `/api/${routeName}/lst`,
-
     createRouteHandler(controller, `getAll${routeName}s`)
   );
   router.get(
     `/api/${routeName}/:id`,
-
     createRouteHandler(controller, `get${routeName}ById`)
   );
   router.delete(
     `/api/${routeName}/:id`,
-
     createRouteHandler(controller, `delete${routeName}`)
   );
   router.post(
     `/api/${routeName}/add`,
-
     createRouteHandler(controller, `add${routeName}`)
   );
   router.put(
     `/api/${routeName}/update/:id`,
-
     createRouteHandler(controller, `update${routeName}`)
   );
 });
 
+// Function to render layout with content
 const renderLayout = (content) => {
   const header = fs.readFileSync(
     join(__dirname, "../views/layout/header.html"),
     "utf-8"
   );
+
   const footer = fs.readFileSync(
     join(__dirname, "../views/layout/footer.html"),
     "utf-8"
@@ -74,26 +72,35 @@ const renderLayout = (content) => {
     join(__dirname, "../views/layout.html"),
     "utf-8"
   );
+
   return layout
     .replace("{{header}}", header)
     .replace("{{content}}", content)
     .replace("{{footer}}", footer);
 };
 
+// Define view routes
 const viewRoutes = [
   { path: "/", view: "index.html" },
   { path: "/SanPham", view: "SanPham.html" },
   { path: "/DanhMuc", view: "DanhMucSanPham.html" },
   { path: "/DangNhap", view: "DangNhap.html" },
+  { path: "/giohang", view: "giohang.html" },
 ];
 
+// Set up view routes
 viewRoutes.forEach(({ path, view }) => {
   router.get(path, (req, res) => {
-    const content = fs.readFileSync(
-      join(__dirname, `../views/${view}`),
-      "utf-8"
-    );
-    res.send(renderLayout(content));
+    try {
+      const content = fs.readFileSync(
+        join(__dirname, `../views/${view}`),
+        "utf-8"
+      );
+      res.send(renderLayout(content));
+    } catch (error) {
+      console.error(`Error reading view file: ${view}`, error);
+      res.status(500).send("Internal Server Error");
+    }
   });
 });
 

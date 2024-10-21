@@ -1,0 +1,85 @@
+.sidebar .buttons-set button {
+  color: #fff;
+  border: 1px solid var(--mainColor);
+  background: var(--mainColor);
+  padding: 5px 25px;
+  min-width: 150px;
+  margin-top: 10px;
+  border-radius: 20px; }
+
+.com_info {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover; }
+
+.white {
+  color: #fff; }
+
+.bg-page {
+  background: var(--accentColor2); }
+
+.bg_black {
+  background: #000; }
+
+.rte a {
+  color: var(--mainColor); }
+  .rte a:hover {
+    filter: brightness(0.6); }
+
+.google-map iframe {
+  border: none;
+  width: 100% !important;
+  height: 100%;
+  min-height: 400px; }
+
+.buttons-set {
+  margin-bottom: 15px; }
+
+.contact {
+  padding-top: 10px; }
+
+.page-title h1 {
+  font-size: 25px;
+  margin: 20px 0; }
+
+.rte h2 {
+  border-left: 2px solid var(--btnBuy);
+  padding-left: 10px;
+  color: var(--btnBuy);
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.rte h3 {
+  font-size: 18px; }
+
+.rte h4 {
+  font-size: 16px; }
+
+.rte h5 {
+  font-size: 14px; }
+
+.rte h6 {
+  font-size: 12px; }
+
+@media (min-width: 992px) {
+  .blog-sidebar {
+    position: sticky;
+    top: 120px; } }
+
+.blog-sidebar .item:nth-child(4n+1) .item_sidebar_bl {
+  background-color: #fff9fb; }
+
+.blog-sidebar .item:nth-child(4n+2) .item_sidebar_bl {
+  background-color: #f8eaff; }
+
+.blog-sidebar .item:nth-child(4n+3) .item_sidebar_bl {
+  background-color: #ddfff3; }
+
+.blog-sidebar .item:nth-child(4n+4) .item_sidebar_bl {
+  background-color: #fff1f6; }
+
+.blog-sidebar .title_blo {
+  font-size: inherit;
+  line-height: 1.4; }
+  .blog-sidebar .title_blo a {
+    font-size: 14px; }

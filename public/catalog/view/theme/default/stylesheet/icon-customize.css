@@ -1,0 +1,75 @@
+/**define icon customize **/
+.icon__customize {
+    position: relative;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.icon__customize:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    transform: translate(0, -14px);
+}
+
+.icon__refresh:before {
+    background-image: url(../image/icon/icon-refresh.svg);
+}
+
+.icon__plus:before {
+    background-image: url(../image/icon/icon-plus.svg);
+}
+
+.icon__edit:before {
+    background-image: url(../image/icon/icon-edit.svg);
+}
+
+.icon__excel_logo:before {
+    background-image: url(../image/icon/icon-excel_logo.svg);
+}
+
+.icon__close:before {
+    background-image: url(../image/icon/icon-close.svg);
+}
+
+.icon__checklist:before {
+    background-image: url(../image/icon/icon-checklist.svg);
+}
+
+.icon__cart:before {
+    background-image: url(../image/icon/icon-cart.svg);
+}
+
+.icon__cloud_download:before {
+    background-image: url(../image/icon/icon-cloud_download.svg);
+}
+
+.icon__search:before {
+    background-image: url(../image/icon/icon-search.svg);
+}
+
+.icon__share:before {
+    background-image: url(../image/icon/icon-share.svg);
+}
+
+.icon__remove:before {
+    background-image: url(../image/icon/icon-trash_bin.svg);
+}
+
+.icon__location:before {
+    background-image: url(../image/icon/icon-location.svg);
+}
+
+.icon__telephone:before {
+    background-image: url(../image/icon/icon-telephone.svg);
+}
+
+.icon__map:before {
+    background-image: url(../image/icon/icon-map.svg);
+}
+
+/**define icon customize **/

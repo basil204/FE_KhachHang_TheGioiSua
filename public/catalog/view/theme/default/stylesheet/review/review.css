@@ -1,0 +1,924 @@
+:root {
+  --line-height: 1.425!important;
+  --main_color: #D70018;
+  --text_color: #1B1E2D!important;
+  --text_hide_color: #959595!important;
+  --gold_color: #FFAE14;
+  --bg_hide_color: #F2F2F2;
+  --icon_hide_color: #E8E8E8;
+  --line_color: #D2D2D2;
+  --link_color: #027DEE;
+}
+
+.rte .store-product-reviews #store-product-reviews-sub .store-product-reviews-summary .bpr-summary .store-product-reviews-star .star-off-png:before {
+    content: "\f005";
+    color: #CCCCCC;
+}
+
+/* review */
+#form-review,
+#form-comment {
+    margin: 0;
+}
+
+#form-review input[type="file"],
+#form-comment input[type="file"]{
+    display: none;
+}
+
+#form-review .dvRating-star {
+    text-align: center;
+    width: 45px;
+}
+
+#form-review .upload-icon,
+#form-comment .upload-icon {
+    width: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#form-review .upload-icon svg,
+#form-comment .upload-icon svg {
+    fill: #2f80ed;
+}
+
+#form-review .select-image,
+#form-comment .select-image {
+    display: flex !important;
+    cursor: pointer;
+    align-items: center;
+}
+
+#form-review .upload-image,
+#form-comment .upload-image {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#form-review .upload-image img,
+#form-comment .upload-image img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#form-image,
+#cmt-form-image {
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0px;
+    display: none;
+}
+
+#form-review .upload-remove-text,
+#form-comment .upload-remove-text {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    background-color: #fff;
+    display: block;
+    color: #288ad6;
+}
+
+#form-comment .upload-icon svg{
+    width: 20px;
+    height: 20px;
+}
+
+#form-review .form-group {
+    padding-bottom: 0;
+}
+
+.form-review-upload {
+    margin-bottom: 10px;
+}
+
+#review svg {
+    width: 13px;
+    height: 13px;
+    fill: #2f80ed;
+    margin-right: 5px;
+}
+
+#review .yotpo-helpful {
+    display: flex;
+    align-items: center;
+}
+
+#review .yotpo-action {
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#review .review-content {
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box !important;
+}
+
+.product-review-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-reviews-info a {
+    color: #2f80ed;
+}
+
+#form-review .rating_review input {
+    margin: 0
+}
+
+#form-review .rating_review i {
+    margin: 0;
+    font-size: 10px;
+    color: #edd500;
+    font-size: 20px;
+}
+
+.zozoweb-product-reviews-summary {
+    border: 1px solid #ddd;
+    padding: 10px
+}
+
+.zozoweb-product-reviews-summary>.row>div:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.zozoweb-product-reviews-summary .help-block {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+#button-review {
+    font-weight: 500;
+    min-width: 200px;
+}
+
+#zozoweb-product-reviews .zozoweb-review-header .zozoweb-review-header-byline,
+.spr-summary-actions-newreview {
+    font-weight: 500
+}
+
+#zozoweb-product-reviews #zozoweb-product-reviews-sub .zozoweb-product-reviews-summary .bpr-summary .bpr-summary-average {
+    color: #edd500
+}
+
+#zozoweb-product-reviews #zozoweb-product-reviews-sub .zozoweb-product-reviews-summary .bpr-summary .bpr-summary-average.number-review {
+    font-size: 12px;
+    color: #000
+}
+
+.product-reviews-description h3,
+.product-reviews-description p {
+    font-size: 16px;
+    font-weight: 600
+}
+
+.product-reviews-description>ul {
+    padding-left: 30px
+}
+
+.product-reviews-description>ul>li {
+    list-style: disc
+}
+
+.product-review-progress-bar{
+    padding-left: 10px;
+}
+
+.product-review-progress-bar>div {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.product-review-progress-bar>div:first-child {
+    margin-top: 0;
+}
+
+.product-review-progress-bar .side {
+    width: auto;
+    margin-right: 3px;
+}
+
+.product-review-progress-bar .middle {
+    width: 128px;
+}
+
+.product-review-progress-bar .middle .bar-container {
+    width: 100%;
+    background-color: #c4c4c4;
+    text-align: center;
+    color: #fff
+}
+
+.product-review-progress-bar .right {
+    width: auto;
+    text-align: left;
+    padding-left: 10px
+}
+
+.product-review-progress-bar .bar {
+    background-color: #edd500;
+    height: 4px
+}
+
+.product-review-progress-bar i {
+    font-size: 13px;
+    color: #edd500;
+    margin-left: 3px
+}
+
+.product-review-progress-bar .side>div {
+    font-weight: 400;
+    color: #000;
+    display: flex;
+    align-items: center
+}
+
+.product-review-progress{
+    border-right: 1px solid #ddd;
+}
+
+.product-review-progress-bar .side>div>span {
+    min-width: 8px;
+}
+
+#form-review .spr-form-input>label {
+    font-weight: 500;
+    float: left;
+    margin-right: 10px;
+}
+
+.spr-form-contact-info label {
+    min-width: 65px;
+    font-weight: 500;
+}
+
+.product-reviews-summary>.product-review-progress-bar {
+    width: 60%;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.product-reviews-summary .bpr-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product-reviews-summary .bpr-summary>.bpr-summary-average {
+    font-size: 25px;
+    color: #000 !important;
+}
+
+.zozoweb-product-reviews-list .zozoweb-review .zozoweb-review-header {
+    display: flex
+}
+
+.zozoweb-product-reviews-list .zozoweb-review .zozoweb-review-header>div:first-child {
+    margin-right: 10px
+}
+
+.zozoweb-review-content-body>span {
+    font-size: 12px;
+    color: #a9a9a9
+}
+
+.zozoweb-product-reviews-summary{
+  border: none;
+  padding: 0;
+}
+
+
+.product-reviews-image {
+    text-align: center;
+    padding-right: 20px;
+    border-right: 1px solid #cccccc;
+}
+
+.product-reviews-image span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+
+.product-reviews-image img {
+    width: 90px;
+}
+
+.product-reviews-description>div {
+    display: flex;
+    align-items: center;
+}
+
+.product-reviews-info ul li {
+    color: #666666;
+}
+
+/*style product review*/
+#review {
+    margin-top: 30px;
+}
+
+#review .review-item {
+    margin-top: 20px;
+}
+
+#review .review-item:first-child {
+    margin-top: 0;
+}
+
+#comment .cmt-item:last-child {
+    margin-bottom: 0;
+}
+
+#review .review-item .profile .reviewer-avt {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: #3F96E7;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#review .review-item .profile span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.reviewer-name > span {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #2ba832!important;
+}
+
+.reviewer-name > span svg{
+    transform: translateY(1px);
+    margin-right: 0!important;
+}
+
+#review .box-reply .review-item .profile .reviewer-name {
+    margin-right: 5px;
+}
+
+#review .review-item .customer-rating .rating-box .star-on-png {
+    font-size: 14px;
+    color: #edd500;
+}
+
+#review .review-item .review-content {
+    display: inline-block;
+}
+
+#review .review-item .review-content {
+    margin-right: 10px;
+}
+
+#review .review-item .review-dated {
+    color: #a9a9a9 !important;
+    font-size: 12px;
+}
+
+#review .review-item .interact-review .actions .y-label,
+#review .review-item .interact-review .actions i {
+    color: #115FB7;
+    font-size: 12px;
+}
+
+#review .review-item .interact-review .actions .yotpo-helpful,
+#review .review-item .interact-review .actions .footer-actions {
+    margin-right: 5px;
+}
+
+#review .box-reply .review-item .interact-review .actions .yotpo-helpful {
+    border: none;
+}
+
+#review .review-item .interact-review .actions .yotpo-helpful {
+    margin-right: 5px;
+}
+
+.nav-tabs-reviews {
+    margin-bottom: 15px;
+}
+
+.nav-tabs-reviews>li {
+    display: inline-block;
+    float: right;
+}
+
+.nav-tabs-reviews>li a {
+    padding: 0 15px;
+}
+
+.nav-tabs-reviews>li.active a {
+    background: #E67020;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.review-item.isLike .vote-sum {
+    font-weight: bold;
+}
+
+.review-item .yotpo-icon.isLike,
+.review-item.isLike .yotpo-icon.nonLike {
+    display: none;
+}
+
+.review-item.isLike .yotpo-icon.isLike {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.review-item.isLike .review-reply {
+    margin-top: 4px;
+}
+
+#review .review-item .yotpo-icon.isLike svg {
+    width: 18px;
+    height: 18px;
+}
+#review .review-item .interact-review .actions .yotpo-helpful > div {
+  cursor: pointer;
+}
+
+/******************** reply review *******************/
+.reply .reply-target {
+    display: block;
+    position: relative;
+    margin: 15px 0;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px -2px;
+    text-align: left;
+}
+
+.reply .reply-target .remove_reply {
+    position: absolute;
+    right: 05px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #A2A2A2;
+    font-family: FontAwesome, sans-serif;
+}
+
+.reply .reply-target .remove_reply:before {
+    content: "\f057";
+}
+
+.reply .reply-target .text {
+    font-style: italic;
+    color: #A2A2A2;
+}
+
+.reply .reply-target .text:before,
+.reply .reply-target .text:after {
+    content: "\f10d";
+    font-family: FontAwesome, sans-serif;
+    font-size: 11px;
+    vertical-align: super;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.reply .reply-target .text:before,
+.reply .reply-target .text:after {
+    content: "\f10d";
+    font-family: FontAwesome, sans-serif;
+    font-size: 11px;
+    vertical-align: super;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.reply .reply-target .text:after {
+    content: "\f10e";
+    vertical-align: sub;
+}
+
+.reply .reply-target .subject {
+    font-weight: 500;
+}
+
+.box-reply {
+    border: 1px solid #E5E4E4;
+    background: #FAFAFA;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.box-reply .review-qoute {
+    margin: 0;
+    color: #3F96E7;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.box-reply .review-qoute span {
+    color: #A9A9A9;
+}
+
+.video-item__description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.video-item__description * {
+    color: #4d4d4d;
+    clear: both;
+}
+
+.details-product .details-pro .product_description .rte::-webkit-scrollbar {
+    width: 5px;
+}
+
+.details-product .details-pro .product_description .rte::-webkit-scrollbar-thumb {
+    background: #b9c0c7;
+}
+
+.details-product .details-pro .product_description .rte::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.reply .reply-target {
+    display: block;
+    position: relative;
+    margin: 15px 0;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px -2px;
+    text-align: left;
+}
+
+.reply .reply-target .remove_reply {
+    position: absolute;
+    right: 05px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #A2A2A2;
+    font-family: FontAwesome, sans-serif;
+}
+
+.reply .reply-target .remove_reply:before {
+    content: "\f057";
+}
+
+.reply .reply-target .text {
+    font-style: italic;
+    color: #A2A2A2;
+}
+
+.reply .reply-target .text:before,
+.reply .reply-target .text:after {
+    content: "\f10d";
+    font-family: FontAwesome, sans-serif;
+    font-size: 11px;
+    vertical-align: super;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.reply .reply-target .text:before,
+.reply .reply-target .text:after {
+    content: "\f10d";
+    font-family: FontAwesome, sans-serif;
+    font-size: 11px;
+    vertical-align: super;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.reply .reply-target .text:after {
+    content: "\f10e";
+    vertical-align: sub;
+}
+
+.reply .reply-target .subject {
+    font-weight: 500;
+}
+
+#input-name:focus,
+#input-review:focus,
+#input-telephone:focus{
+  border: 1px solid #2f80ed;
+}
+
+#wrapper-review__image{
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrapper-review__image.full-image{
+  height: 160px;
+  overflow: hidden;
+}
+#wrapper-review__image .review-image__item{
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+#wrapper-review__image .review-image__item img{
+  border-radius: 5px;
+  object-fit: cover;
+}
+.review-image__item.last-review__image{
+  position: relative;
+}
+.review-image__more{
+  align-items: center;
+  background-color: rgba(0 0 0/.76);
+  color: #fff;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  height: 100%;
+  line-height: 16px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.lg-sub-html h4{
+    font-size: 20px!important;
+}
+.lg-sub-html p{
+    font-size: 14px!important;
+}
+.lg-sub-html .rating-box i {
+    font-size: 12px;
+    color: #edd500;
+}
+
+/* comment */
+#txtComment{
+  max-height: 200px;
+}
+.wrapper-cmt__field .cmt-field input,
+.wrapper-cmt__field .form-review-upload,
+.wrapper-cmt__field .select-image{
+  margin: 0;
+  padding: 0;
+}
+.wrapper-cmt__field{
+  border: 1px solid #ebebeb;
+  border-top: 0;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+}
+.wrapper-cmt__field .cmt-field{
+  margin-right: 10px;
+}
+.wrapper-cmt__field .cmt-field:last-child{
+  margin-right: 0;
+}
+.wrapper-cmt__field .cmt-field input{
+  padding: 0 10px;
+}
+#comment{
+  margin-top: 20px;
+}
+.comment-item svg{
+  transform: translateY(2px);
+}
+.comment-item .review-reply svg{
+  margin-right: 0!important;
+}
+#comment .box-reply #form-comment{
+  margin-right: 15px;
+}
+#review .review-item .cmt-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+#review .review-item .cmt-image > a{
+  margin: 10px 5px
+}
+#review .pagination,
+#comment .pagination{
+  justify-content: center;
+  margin-top: 15px;
+}
+#review .pagination li.active span,
+#comment .pagination li.active span,
+#review .pagination li:hover a,
+#comment .pagination li:hover a{
+  background-color: var(--main_color);
+  border-color: var(--main_color);
+}
+.view-more-reply{
+  color: #0056b3;
+  font-size: 12px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.view-more-reply:hover{
+  color: #0056b3;
+  text-decoration: underline;
+}
+#review-new .profile{
+  display: flex;
+  align-items: center;
+}
+#review-new .reviewer-name{
+  margin-right: 10px;
+}
+#review-new .customer-rating{
+  transform: translateY(-2px);
+}
+#review-new .review-container{
+  padding-left: 0;
+}
+#review-new .review-content{
+  margin-top: 10px;
+}
+#review-new .review_lists > .review-item{
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--bg_hide_color);
+}
+#review svg{
+  width: 11px;
+}
+.customer-bought svg{
+  transform: translateY(2px);
+  margin-right: 0!important;
+}
+#review .review-item .interact-review .actions .yotpo-helpful > div{
+  position: relative;
+  margin-right: 30px;
+}
+#review .review-item .interact-review .actions .yotpo-helpful > div:not(:last-child):after{
+  content: "";
+  position: absolute;
+  right: -16px;
+  top: 9px;
+  width: 3px;
+  height: 3px;
+  background: var(--text_hide_color);
+  border-radius: 100%;
+}
+#review .review-item .interact-review .actions .yotpo-helpful > div.review-reply:after{
+  top: 8px;
+}
+#review .review-item .interact-review .actions .yotpo-helpful{
+  margin-top: 5px;
+}
+.reviewer-avt{
+  width: auto!important;
+  height: auto!important;
+  background-color: var(--gold_color)!important;
+  border-radius: 100px!important;
+  padding: 0 5px!important;
+  font-size: 12px!important;
+  line-height: 1.425!important;
+  margin-left: 15px;
+}
+.product-review-text{
+  font-size: 16px;
+}
+#product-reviews{
+  border: 1px solid #1B1E2D;
+  border-radius: 2px;
+  padding: 20px;
+}
+.zozoweb-product-reviews-summary{
+  padding: 0;
+  border: none;
+}
+.zozoweb-product-reviews-star,
+.product-review-progress-bar i,
+#review .review-item .customer-rating .rating-box .star-on-png{
+  color: var(--gold_color)!important;
+  font-size: 10px!important;
+}
+.product-review-progress-bar .bar{
+  background-color: var(--gold_color)!important;
+}
+.product-reviews-summary .bpr-summary{
+  display: block!important;
+  text-align: center;
+}
+.product-reviews-summary .bpr-summary span{
+  display: block;
+}
+.product-review-progress{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-review-progress-bar .side>div{
+  font-size: 12px;
+}
+.open-review-form{
+  margin-top: 20px;
+}
+.open-review-form a{
+  padding: 10px 30px;
+  background: #D70018;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+}
+.product-reviews-form{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: #fff;
+}
+body.open-form:after{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(27, 30, 45, 0.4);
+  z-index: 999;
+}
+.form-review__title{
+  position: relative;
+  background-color: var(--main_color);
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form-review__title p{
+  margin: 0;
+}
+.form-review__title .close-icon{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.form-review__title .close-icon svg{
+  transform: translateY(-6px);
+}
+.form-review__title .close-icon svg path{
+  fill: var(--main_color);
+}
+#form-review .rating_review i{
+  color: var(--gold_color)!important;
+  font-size: 14px!important;
+}
+#form-review .rating_review p{
+  color: var(--text_color);
+  font-size: 500;
+}
+#form-review .dvRating-star{
+  width: 65px!important;
+}
+#button-review{
+  margin-bottom: 10px;
+  background: var(--main_color);
+  border-radius: 2px;
+  border-color: var(--main_color);
+}
+#button-review:hover{
+  background: #fff;
+  border-color: var(--main_color);
+  color: var(--main_color);
+}
+#review-new .reviewer-avt svg{
+  transform: translateY(2px)
+}

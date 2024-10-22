@@ -1,0 +1,138 @@
+<div class="col-right position-relative open_slogan">
+    <div class="contentWarp">
+        <div class="acc_layout my-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-md-12">
+                        <div class="top_slogan w-100 align-items-center" style="--clcont: #ffffff; --bg_line_1: #71c3ab; --bg_line_2: #6568a0; display: none;">
+                            <div class="container h-100">
+                                <div class="zozo_text_fade swiper-container h-100">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide text-center">
+                                            <a class="font-weight-bold d-flex justify-content-center align-items-center h-100 w-100" href="#" title="Tặng quà hấp dẫn cho bé. Mua hàng ngay đừng bỏ lỡ.">
+                                                <span class="pulsingButton mr-3 bg-white d-inline-block rounded-circle"></span>Tặng quà hấp dẫn cho bé. Mua hàng ngay đừng bỏ lỡ.
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide text-center">
+                                            <a class="font-weight-bold d-flex justify-content-center align-items-center h-100 w-100" href="#" title="Free ship tất cả các đơn hàng từ 299k">
+                                                <span class="pulsingButton mr-3 bg-white d-inline-block rounded-circle"></span>Free ship tất cả các đơn hàng từ 299k
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div id="layout-login-v2">
+                            <div class="breadcrumbs mb-3">
+                                <ul class="breadcrumb align-items-center m-0 small bg-white rounded-10 p-2">
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="home">
+                                        <a href="../index.html">
+                                            <svg width="14" height="14">
+                                                <use href="#svg-home" />
+                                            </svg>
+                                            <i class="fa fa-home"></i> Trang chủ
+                                        </a>
+                                        <span class="slash-divider ml-2 mr-2">
+                                            <svg width="4" height="8">
+                                                <use href="#svg-next-mini" />
+                                            </svg>
+                                        </span>
+                                    </li>
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="">
+                                        <a href="login.html"> Tài khoản </a>
+                                        <span class="slash-divider ml-2 mr-2">
+                                            <svg width="4" height="8">
+                                                <use href="#svg-next-mini" />
+                                            </svg>
+                                        </span>
+                                    </li>
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                        Đăng nhập
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bg-white rounded-10 container margin-bottom-20 mt-3">
+                                <div class="notify"></div>
+                                <h1 class="d-none">Đăng nhập tài khoản</h1>
+                                <div class="row justify-content-md-center">
+                                    <div class="col-lg-12 col-md-12 col-xs-12">
+                                        <div class="account-box-shadow">
+                                            <div id="login" class="row">
+                                                <div class="col-lg-6 col-md-6 evo-account-content">
+                                                    <div id="evo-login">
+                                                        <form action="https://vshop.w2.exdomain.net/account/login" method="post" enctype="multipart/form-data" id="customer_login">
+                                                            <h1 class="customer_login__title">Đăng nhập</h1>
+
+                                                            <div class="_form-signup clearfix">
+                                                                <fieldset class="form-group--customize required">
+                                                                    <label class="control-label hidden" for="input-email">Địa chỉ Email</label>
+                                                                    <input type="text" name="email" value="" placeholder="Địa chỉ Email" id="input-email" class="form-control--customize" />
+                                                                </fieldset>
+                                                                <fieldset class="form-group--customize required margin-bottom-0">
+                                                                    <label class="control-label hidden" for="input-password">Mật khẩu</label>
+                                                                    <input type="password" name="password" value="" placeholder="Mật khẩu" id="input-password" class="form-control--customize" />
+                                                                </fieldset>
+                                                                <div class="clearfix"></div>
+                                                                <p class="text-right recover">
+                                                                    <a href="javascript:;" class="btn-link-style" onclick="showRecoverPasswordForm();" title="Quên mật khẩu?">Quên mật khẩu?</a>
+                                                                </p>
+                                                                <div class="pull-xs-left text-center" style="margin-top: 15px; margin-bottom: 20px;">
+                                                                    <button type="submit" class="btn-submit-form" id="submit-form-login">Đăng nhập</button>
+                                                                </div>
+                                                                <div class="clearfix"></div>
+                                                                <div class="line-break">
+                                                                    <span>hoặc đăng nhập qua</span>
+                                                                </div>
+                                                            
+                                                                <div class="social-login text-center">
+                                                                    <a href="javascript:void(0)" class="social-login--facebook" onclick="loginFacebook()">
+                                                                        <img width="129px" height="37px" alt="facebook-login-button" src="../catalog/view/theme/default/image/account/fb-btn.svg" />
+                                                                    </a>
+                                                                    <a href="javascript:void(0)" class="social-login--google" onclick="loginGoogle()">
+                                                                        <img width="129px" height="37px" alt="google-login-button" src="../catalog/view/theme/default/image/account/gp-btn.svg" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div id="recover-password" class="form-signup" style="display: none;">
+                                                        <form accept-charset="utf-8" action="https://vshop.w2.exdomain.net/account/forgotten" id="recover_customer_password" method="post" class="has-validation-callback">
+                                                            <div class="customer_login__title">Phục hồi mật khẩu</div>
+                                                            <div class="fix-sblock text-left">
+                                                                Bạn quên mật khẩu? Nhập địa chỉ email để lấy lại mật khẩu qua email.
+                                                            </div>
+                                                            <div class="form-signup clearfix">
+                                                                <fieldset class="form-group--customize">
+                                                                    <label class="hidden">Địa chỉ Email<span class="required">*</span></label>
+                                                                    <input type="text" name="email" value="" placeholder="Địa chỉ Email" id="input-email-forgotten" class="form-control form-control-lg" />
+                                                                </fieldset>
+                                                            </div>
+                                                            <div class="action_bottom text-center">
+                                                                <button class="btn-submit-form" id="submit-form-forgotten" style="margin-top: 10px;" type="submit" value="Lấy lại mật khẩu">Lấy lại mật khẩu</button>
+                                                            </div>
+                                                            <div class="text-login text-center">
+                                                                <p>Quay lại <a href="javascript:;" class="btn-link-style btn-register" onclick="hideRecoverPasswordForm();" title="Quay lại">tại đây</a></p>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 account-banner">
+                                                    <div class="account__description">
+                                                        <div class="customer_login__title">Quyền lợi thành viên</div>
+                                                        <div class="account_policy_content">Bằng việc tạo tài khoản bạn có thể mua sắm nhanh hơn, theo dõi trạng thái đơn hàng, và theo dõi đơn hàng mà bạn đã đặt.</div>
+                                                        <a href="register.html" class="btn-continue" style="margin-top: 15px;">Đăng ký</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
